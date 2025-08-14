@@ -25,7 +25,7 @@ function App() {
   //============================
   return (
     <div className={darkMode ? 'dark' : 'light'}>
-      <Router basename="/PS_Project1">
+      <Router basename="/Project2">
         <header style={{ padding: '10px 20px' }}>
           <button onClick={toggleTheme} aria-label="Toggle dark or light theme">
             {darkMode ? 'Light Mode' : 'Dark Mode'}
